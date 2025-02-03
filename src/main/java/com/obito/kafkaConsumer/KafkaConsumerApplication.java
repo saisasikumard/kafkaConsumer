@@ -22,5 +22,6 @@ public class KafkaConsumerApplication {
 	public void paymentConsumer(AppleRequest1 messege) throws JsonProcessingException {
 		log.info("initiated the payment:"+new ObjectMapper().writeValueAsString(messege));
 
+
 	}
 }
